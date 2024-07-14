@@ -2,8 +2,7 @@ Duck Simulator
 This Java program demonstrates the use of the Strategy pattern to model different types of ducks with varying behaviors for flying, quacking, and swimming.
 
 Overview
-The program consists of several Java classes that implement e Duck simulator. The key components of the program are:
-
+The program consists of several Java classes that implement e Duck simulator. The key components of the p
 Main: The main class that contains the main() method to execute the Duck simulator. It creates instances of different duck types, such as MallardDuck, RedHeadDuck, RubberDuck, and DecoyDuck, and invokes their methods to display their behavior.
 
 Duck: An abstract class that serves as the base class for different types of ducks. It contains references to objects of the FlyBehavior, QuackBehavior, and SwimBehavior interfaces, which can be set at runtime to change the behavior of ducks. It also defines common methods such as performQuack(), performFly(), and performSwim() to delegate the behavior to the corresponding behavior objects.
