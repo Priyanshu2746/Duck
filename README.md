@@ -5,7 +5,7 @@ Overview
 The program consists of several Java classes that implement e Duck simulator. The key components of the p
 Main: The main class that contains the main() method to execute the Duck simulator. It creates instances of different duck types, such as MallardDuck, RedHeadDuck, RubberDuck, and DecoyDuck, and invokes their methods to display their behavior.
 
-Duck: An abstract class that serves as the base class for different types of ducks. It contains references to objects of the FlyBehavior, QuackBehavior, and SwimBehavior interfaces, which can be set at runtime to change the behavior of ducks. It also defines common methods such as performQuack(), performFly(), and performSwim() to delegate the behavior to the corresponding behavior objects.
+Duck: An abstract class that serves as the base class for different types of duckstains references to objects of the FlyBehavior, QuackBehavior, and SwimBehavior interfaces, which can be set at runtime to change the behavior of ducks. It also defines common methods such as performQuack(), performFly(), and performSwim() to delegate the behavior to the corresponding behavior objects.
 
 FlyBehavior, QuackBehavior, SwimBehavior: Interfaces that define the behaviors for flying, quacking, and swimming respectively.
 
